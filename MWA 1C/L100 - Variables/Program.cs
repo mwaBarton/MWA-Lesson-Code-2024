@@ -10,6 +10,18 @@ namespace L100___Variables
     {
         static void Main(string[] args)
         {
+            int number;
+            int num2;
+
+            Console.WriteLine("Enter number: ");
+            number = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter another number: ");
+            num2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Sum: " + (number + num2));
+            Console.WriteLine("Product: " + (number * num2));
+
+            Console.ReadKey();
         }
     }
 }
