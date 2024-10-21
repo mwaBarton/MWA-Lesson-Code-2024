@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L116 - Types of Errors", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L116 - Arrays", "L116 - Arrays\L116 - Arrays.csproj", "{89FA8B5A-8F6C-4010-A7F6-4E1CE2FF1D85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L117 - Call stack and  Lists", "L117 - Call stack and  Lists\L117 - Call stack and  Lists.csproj", "{090E0ACC-8A55-4C1B-8583-594DB7D16410}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{89FA8B5A-8F6C-4010-A7F6-4E1CE2FF1D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89FA8B5A-8F6C-4010-A7F6-4E1CE2FF1D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89FA8B5A-8F6C-4010-A7F6-4E1CE2FF1D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{090E0ACC-8A55-4C1B-8583-594DB7D16410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{090E0ACC-8A55-4C1B-8583-594DB7D16410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{090E0ACC-8A55-4C1B-8583-594DB7D16410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{090E0ACC-8A55-4C1B-8583-594DB7D16410}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
