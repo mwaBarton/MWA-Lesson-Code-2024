@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L116 - Arrays", "L116 - Arr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L117 - Call Stack", "L117 - Call Stack\L117 - Call Stack.csproj", "{C5302A72-B7D7-48CF-A17A-19230D19298B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L121 - ConsoleKeyAvailable", "L121 - ConsoleKeyAvailable\L121 - ConsoleKeyAvailable.csproj", "{71907CBA-253F-4B38-B04A-801C7DDA4ABE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C5302A72-B7D7-48CF-A17A-19230D19298B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5302A72-B7D7-48CF-A17A-19230D19298B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5302A72-B7D7-48CF-A17A-19230D19298B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71907CBA-253F-4B38-B04A-801C7DDA4ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71907CBA-253F-4B38-B04A-801C7DDA4ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71907CBA-253F-4B38-B04A-801C7DDA4ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71907CBA-253F-4B38-B04A-801C7DDA4ABE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
