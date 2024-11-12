@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L117 - Call Stack", "L117 -
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L121 - ConsoleKeyAvailable", "L121 - ConsoleKeyAvailable\L121 - ConsoleKeyAvailable.csproj", "{71907CBA-253F-4B38-B04A-801C7DDA4ABE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L123 - Functions", "L123 - Functions\L123 - Functions.csproj", "{9AF8946B-4093-49F6-913A-8282CD237DE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{71907CBA-253F-4B38-B04A-801C7DDA4ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71907CBA-253F-4B38-B04A-801C7DDA4ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71907CBA-253F-4B38-B04A-801C7DDA4ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF8946B-4093-49F6-913A-8282CD237DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF8946B-4093-49F6-913A-8282CD237DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF8946B-4093-49F6-913A-8282CD237DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF8946B-4093-49F6-913A-8282CD237DE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
