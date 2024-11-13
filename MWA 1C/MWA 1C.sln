@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L121 - Parallel Arrays", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L123 - Functions", "L123 - Functions\L123 - Functions.csproj", "{3C2ECC2D-D4ED-43F6-B7D5-658EE25085CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L124 - Structures", "L124 - Structures\L124 - Structures.csproj", "{789CB0D4-39F5-4FE5-A235-BCB08E05761D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L124 - Reading Text Files", "L124 - Reading Text Files\L124 - Reading Text Files.csproj", "{F572DD39-36A3-42C6-8E65-9A4DBB6161B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{3C2ECC2D-D4ED-43F6-B7D5-658EE25085CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C2ECC2D-D4ED-43F6-B7D5-658EE25085CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C2ECC2D-D4ED-43F6-B7D5-658EE25085CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{789CB0D4-39F5-4FE5-A235-BCB08E05761D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{789CB0D4-39F5-4FE5-A235-BCB08E05761D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{789CB0D4-39F5-4FE5-A235-BCB08E05761D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{789CB0D4-39F5-4FE5-A235-BCB08E05761D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F572DD39-36A3-42C6-8E65-9A4DBB6161B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F572DD39-36A3-42C6-8E65-9A4DBB6161B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F572DD39-36A3-42C6-8E65-9A4DBB6161B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F572DD39-36A3-42C6-8E65-9A4DBB6161B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
