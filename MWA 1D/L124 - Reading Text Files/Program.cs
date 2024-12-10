@@ -11,6 +11,24 @@ namespace L124___Reading_Text_Files
     {
         static void Main(string[] args)
         {
+            using (StreamReader reader = new StreamReader("names.txt"))
+            {
+                while (!reader.EndOfStream)
+                {
+                    string line = reader.ReadLine();
+                    Console.WriteLine(line);
+                }
+            }
+
+            using (StreamReader reader = new StreamReader("names.txt"))
+            {
+                while (reader.EndOfStream)
+                {
+
+                }
+            }
+
+
             string filename = "colours.txt";
 
             using (StreamReader sr = new StreamReader(filename))
