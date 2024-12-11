@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace L132___Binary_Files
 {
@@ -30,14 +27,28 @@ namespace L132___Binary_Files
         {
             Lesson lesson = new Lesson();
 
-            // TODO: complete
+            using (BinaryReader reader = new BinaryReader(File.Open(filePath, FileMode.OpenOrCreate)))
+            {
+                lesson.room = reader.ReadString();
+                lesson.teacherName = reader.ReadString();
+                lesson.numOfStudents = reader.ReadInt32();
+            }
 
             return lesson;
         }
 
         static void WriteLessonsToFile(string filePath, List<Lesson> lessons)
         {
-            // TODO: Complete, and create a sub for reading them too
+            using (BinaryWriter writer = new BinaryWriter(File.Open(filePath, FileMode.OpenOrCreate)))
+            {
+                writer.Write(lessons.Count);
+                foreach (Lesson lesson in lessons)
+                {
+                    writer.Write(lesson.room);
+                    writer.Write(lesson.teacherName);
+                    writer.Write(lesson.numOfStudents);
+                }
+            }
         }
 
         static void Main(string[] args)
@@ -67,6 +78,10 @@ namespace L132___Binary_Files
             };
 
             WriteLessonToFile("lessons.bin", lesson);
+
+            Lesson result = ReadLessonFromFile("lessons.bin");
+
+            Console.WriteLine($"{result.teacherName} ({result.room}): {result.numOfStudents}");
 
             Console.ReadKey();
         }
