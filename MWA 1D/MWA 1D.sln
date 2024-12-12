@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L126 - Writing Text Files",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L132 - Binary Files", "L132 - Binary Files\L132 - Binary Files.csproj", "{96238FC4-C9D0-4E5F-A934-6B137237FEB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L133 - Exceptions", "L133 - Exceptions please work\L133 - Exceptions.csproj", "{4F30940F-8812-4AD5-8AC4-22F18A7EFB0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{96238FC4-C9D0-4E5F-A934-6B137237FEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96238FC4-C9D0-4E5F-A934-6B137237FEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96238FC4-C9D0-4E5F-A934-6B137237FEB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F30940F-8812-4AD5-8AC4-22F18A7EFB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F30940F-8812-4AD5-8AC4-22F18A7EFB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F30940F-8812-4AD5-8AC4-22F18A7EFB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F30940F-8812-4AD5-8AC4-22F18A7EFB0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
