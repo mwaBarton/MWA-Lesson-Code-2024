@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L145 - Warships", "L145 - W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L144 - 2d Arrays", "L144 - 2d Arrays\L144 - 2d Arrays.csproj", "{33768A33-3CAB-46EA-92E8-B4BB325FCB71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L149 - Classes and Objects", "L149 - Classes and Objects\L149 - Classes and Objects.csproj", "{B0EFB102-F761-4785-BD16-2CDBA14426B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{33768A33-3CAB-46EA-92E8-B4BB325FCB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33768A33-3CAB-46EA-92E8-B4BB325FCB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33768A33-3CAB-46EA-92E8-B4BB325FCB71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0EFB102-F761-4785-BD16-2CDBA14426B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0EFB102-F761-4785-BD16-2CDBA14426B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0EFB102-F761-4785-BD16-2CDBA14426B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0EFB102-F761-4785-BD16-2CDBA14426B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
