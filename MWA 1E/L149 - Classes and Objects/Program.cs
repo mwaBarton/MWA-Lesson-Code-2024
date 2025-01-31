@@ -17,10 +17,7 @@ namespace L149___Classes_and_Objects
             harold.favouriteBread = "Tiger bread";
 
             Goose ben = new Goose();
-            ben.height = 7000;
-            ben.wingspan = -4;
-            ben.canFloat = false;
-            ben.favouriteBread = "German Rye bread";
+            ben.Initialise();
 
             harold.Grow(5);
             ben.Grow(2000);
