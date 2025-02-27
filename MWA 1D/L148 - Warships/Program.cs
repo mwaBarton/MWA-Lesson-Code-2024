@@ -50,8 +50,9 @@ class Program
 
 
 
-    //               1) What does this | mean?
-    //                                 V
+
+    //                   1) What does | this mean?
+    //                                V
     private static void SetUpBoard(ref char[,] Board)
     {
         for (int Row = 0; Row < 10; Row++)
@@ -62,12 +63,10 @@ class Program
             }
         }
     }
-    // 2) Why is the 'ref' not actually needed?
+    // 2) Why is the 'ref' not needed?
     // 3) What does this subroutine achieve?
-    // 4) Why do we not see '-' characters in the board when
-    //    when we run the game?
-
-
+    // 4) Why do we not see '-' characters in the board when we
+    //    play the game?
 
 
     private static void LoadGame(string TrainingGame, ref char[,] Board)
@@ -94,11 +93,13 @@ class Program
         int Row = 0;
         int Column = 0;
         int HorV = 0;
+        int count = 0;
         foreach (var Ship in Ships)
         {
             Valid = false;
             while (Valid == false)
             {
+                count++;
                 Row = RandomNumber.Next(0, 10);
                 Column = RandomNumber.Next(0, 10);
                 HorV = RandomNumber.Next(0, 2);
@@ -115,6 +116,8 @@ class Program
             Console.WriteLine("Computer placing the " + Ship.Name);
             PlaceShip(ref Board, Ship, Row, Column, Orientation);
         }
+
+        Console.WriteLine(count - Ships.Length);
     }
 
     private static void PlaceShip(ref char[,] Board, ShipType Ship, int Row, int Column, char Orientation)
@@ -202,7 +205,6 @@ class Program
             Console.Write(Row + " ");
             for (int Column = 0; Column < 10; Column++)
             {
-                Console.Write(Board[Row, Column]);
                 //if (Board[Row, Column] == '-')
                 //{
                 //    Console.Write(" ");
@@ -215,6 +217,7 @@ class Program
                 //{
                 //    Console.Write(Board[Row, Column]);
                 //}
+                Console.Write(Board[Row, Column]);
                 if (Column != 9)
                 {
                     Console.Write(" | ");
@@ -271,7 +274,7 @@ class Program
         Ships[3].Size = 3;
         Ships[4].Name = "Patrol Boat";
         Ships[4].Size = 2;
-        Ships[5].Name = "Titanic";
+        Ships[5].Name = "Titatinc";
         Ships[5].Size = 7;
     }
 

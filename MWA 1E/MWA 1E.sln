@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L149 - Classes and Objects"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L150 - Access Modifiers and Constructors", "L150 - Access Modifiers and Constructors\L150 - Access Modifiers and Constructors.csproj", "{4C85F629-6EC9-4635-BBA6-D6DF09CDC09B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warships", "Warships\Warships.csproj", "{45D4DA1A-6431-4343-B200-866E064AA04E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{4C85F629-6EC9-4635-BBA6-D6DF09CDC09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C85F629-6EC9-4635-BBA6-D6DF09CDC09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C85F629-6EC9-4635-BBA6-D6DF09CDC09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D4DA1A-6431-4343-B200-866E064AA04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D4DA1A-6431-4343-B200-866E064AA04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D4DA1A-6431-4343-B200-866E064AA04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D4DA1A-6431-4343-B200-866E064AA04E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

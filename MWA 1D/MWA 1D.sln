@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L133 - Exceptions", "L133 -
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L149", "L149\L149.csproj", "{33A9A0E2-87C2-4B8D-A16B-E99FDC2F9158}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L150 - Access Modifiers and Constructors", "L150 - Access Modifiers and Constructors\L150 - Access Modifiers and Constructors.csproj", "{7D838680-1698-4F86-A14F-52A5B24FB1AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L148 - Warships", "L148 - Warships\L148 - Warships.csproj", "{12C8D7FF-C040-497B-9637-C1DE333CB372}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{33A9A0E2-87C2-4B8D-A16B-E99FDC2F9158}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33A9A0E2-87C2-4B8D-A16B-E99FDC2F9158}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33A9A0E2-87C2-4B8D-A16B-E99FDC2F9158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D838680-1698-4F86-A14F-52A5B24FB1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D838680-1698-4F86-A14F-52A5B24FB1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D838680-1698-4F86-A14F-52A5B24FB1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D838680-1698-4F86-A14F-52A5B24FB1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C8D7FF-C040-497B-9637-C1DE333CB372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C8D7FF-C040-497B-9637-C1DE333CB372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C8D7FF-C040-497B-9637-C1DE333CB372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C8D7FF-C040-497B-9637-C1DE333CB372}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

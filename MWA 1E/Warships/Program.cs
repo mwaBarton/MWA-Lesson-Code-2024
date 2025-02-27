@@ -50,6 +50,7 @@ class Program
 
 
 
+
     //               1) What does this | mean?
     //                                 V
     private static void SetUpBoard(ref char[,] Board)
@@ -62,10 +63,10 @@ class Program
             }
         }
     }
-    // 2) Why is the 'ref' not actually needed?
-    // 3) What does this subroutine achieve?
-    // 4) Why do we not see '-' characters in the board when
-    //    when we run the game?
+    // 2) What does this subroutine do?
+    // 3) Why is the 'ref' not needed?
+    // 4) Why do we not see '-' in the board when the game is played?
+
 
 
 
@@ -202,7 +203,6 @@ class Program
             Console.Write(Row + " ");
             for (int Column = 0; Column < 10; Column++)
             {
-                Console.Write(Board[Row, Column]);
                 //if (Board[Row, Column] == '-')
                 //{
                 //    Console.Write(" ");
@@ -215,6 +215,7 @@ class Program
                 //{
                 //    Console.Write(Board[Row, Column]);
                 //}
+                Console.Write(Board[Row, Column]);
                 if (Column != 9)
                 {
                     Console.Write(" | ");
