@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L150 - Access Modifiers and
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L148 - Warships", "L148 - Warships\L148 - Warships.csproj", "{12C8D7FF-C040-497B-9637-C1DE333CB372}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L153 - Inheritance", "L153 - Inheritance\L153 - Inheritance.csproj", "{B11F8C4F-FE3F-490A-AB3C-D594F3E283EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{12C8D7FF-C040-497B-9637-C1DE333CB372}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12C8D7FF-C040-497B-9637-C1DE333CB372}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12C8D7FF-C040-497B-9637-C1DE333CB372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B11F8C4F-FE3F-490A-AB3C-D594F3E283EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11F8C4F-FE3F-490A-AB3C-D594F3E283EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11F8C4F-FE3F-490A-AB3C-D594F3E283EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11F8C4F-FE3F-490A-AB3C-D594F3E283EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
