@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L148 - Warships", "L148 - W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L153 - Inheritance", "L153 - Inheritance\L153 - Inheritance.csproj", "{B11F8C4F-FE3F-490A-AB3C-D594F3E283EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L155 - Searching", "L155 - Searching\L155 - Searching.csproj", "{698E1CA9-88B4-4763-91C5-F9F0DE4DDFD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{B11F8C4F-FE3F-490A-AB3C-D594F3E283EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B11F8C4F-FE3F-490A-AB3C-D594F3E283EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B11F8C4F-FE3F-490A-AB3C-D594F3E283EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{698E1CA9-88B4-4763-91C5-F9F0DE4DDFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698E1CA9-88B4-4763-91C5-F9F0DE4DDFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698E1CA9-88B4-4763-91C5-F9F0DE4DDFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698E1CA9-88B4-4763-91C5-F9F0DE4DDFD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
