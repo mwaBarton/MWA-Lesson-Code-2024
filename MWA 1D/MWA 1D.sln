@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L153 - Inheritance", "L153 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L155 - Searching", "L155 - Searching\L155 - Searching.csproj", "{698E1CA9-88B4-4763-91C5-F9F0DE4DDFD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L157 - Polymorphism", "L157 - Polymorphism\L157 - Polymorphism.csproj", "{BAC5A23F-50B9-4DF6-8301-ECAA8E239A78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{698E1CA9-88B4-4763-91C5-F9F0DE4DDFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{698E1CA9-88B4-4763-91C5-F9F0DE4DDFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{698E1CA9-88B4-4763-91C5-F9F0DE4DDFD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC5A23F-50B9-4DF6-8301-ECAA8E239A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC5A23F-50B9-4DF6-8301-ECAA8E239A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC5A23F-50B9-4DF6-8301-ECAA8E239A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC5A23F-50B9-4DF6-8301-ECAA8E239A78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
