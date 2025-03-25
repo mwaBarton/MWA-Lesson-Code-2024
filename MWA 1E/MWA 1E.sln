@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L159 - Abstract Classes", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L159 - Interfaces", "L159 - Interfaces\L159 - Interfaces.csproj", "{C30DE7E8-2BA1-41B5-A8CC-734DB70F522B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L162 - Recursion", "L162 - Recursion\L162 - Recursion.csproj", "{FD852D5D-87BD-4241-9981-2FEA4CA12EB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L161 - Cs with SQL", "L161 - Cs with SQL\L161 - Cs with SQL.csproj", "{FF198EA2-8C6C-42CF-98A9-78CA8146C9F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,14 @@ Global
 		{C30DE7E8-2BA1-41B5-A8CC-734DB70F522B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C30DE7E8-2BA1-41B5-A8CC-734DB70F522B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C30DE7E8-2BA1-41B5-A8CC-734DB70F522B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD852D5D-87BD-4241-9981-2FEA4CA12EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD852D5D-87BD-4241-9981-2FEA4CA12EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD852D5D-87BD-4241-9981-2FEA4CA12EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD852D5D-87BD-4241-9981-2FEA4CA12EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF198EA2-8C6C-42CF-98A9-78CA8146C9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF198EA2-8C6C-42CF-98A9-78CA8146C9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF198EA2-8C6C-42CF-98A9-78CA8146C9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF198EA2-8C6C-42CF-98A9-78CA8146C9F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

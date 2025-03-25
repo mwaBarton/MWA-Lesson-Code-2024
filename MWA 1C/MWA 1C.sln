@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L158 - Abstract Classes", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L159 - Interfaces", "L159 - Interfaces\L159 - Interfaces.csproj", "{4C338BD6-E23D-4000-BC7C-C051A39C3DFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L161 - Cs with SQL", "L161 - Cs with SQL\L161 - Cs with SQL.csproj", "{14682248-4714-4375-AC4D-C99687ECEE50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L162 - Recursion", "L162 - Recursion\L162 - Recursion.csproj", "{69AC44D1-D031-4EC0-BBBE-5C9B9EE82A77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,14 @@ Global
 		{4C338BD6-E23D-4000-BC7C-C051A39C3DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C338BD6-E23D-4000-BC7C-C051A39C3DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C338BD6-E23D-4000-BC7C-C051A39C3DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14682248-4714-4375-AC4D-C99687ECEE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14682248-4714-4375-AC4D-C99687ECEE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14682248-4714-4375-AC4D-C99687ECEE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14682248-4714-4375-AC4D-C99687ECEE50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69AC44D1-D031-4EC0-BBBE-5C9B9EE82A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69AC44D1-D031-4EC0-BBBE-5C9B9EE82A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69AC44D1-D031-4EC0-BBBE-5C9B9EE82A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69AC44D1-D031-4EC0-BBBE-5C9B9EE82A77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
