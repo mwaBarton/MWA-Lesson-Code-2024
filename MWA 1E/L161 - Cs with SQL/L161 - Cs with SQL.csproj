@@ -67,7 +67,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Debug\hogwarts.db" />
+    <None Include="bin\Debug\L161 - Cs with SQL.exe.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
+    <Content Include="bin\Debug\L161 - Cs with SQL.exe" />
+    <Content Include="bin\Debug\L161 - Cs with SQL.pdb" />
+    <Content Include="bin\Debug\System.Data.SQLite.dll" />
+    <Content Include="bin\Debug\System.Data.SQLite.EF6.dll" />
+    <Content Include="bin\Debug\System.Data.SQLite.Linq.dll" />
+    <Content Include="bin\Debug\System.Data.SQLite.xml" />
+    <Content Include="bin\Debug\x64\SQLite.Interop.dll" />
+    <Content Include="bin\Debug\x86\SQLite.Interop.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

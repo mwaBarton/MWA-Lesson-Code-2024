@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L159 - Interfaces", "L159 -
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L161 - Cs with SQL", "L161 - Cs with SQL\L161 - Cs with SQL.csproj", "{72E2C9FA-3FD2-46CB-9D30-85C691A1316F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L162 - Recursion", "L162 - Recursion\L162 - Recursion.csproj", "{970C57C7-545C-4450-B92F-146CCCFF6823}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{72E2C9FA-3FD2-46CB-9D30-85C691A1316F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72E2C9FA-3FD2-46CB-9D30-85C691A1316F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72E2C9FA-3FD2-46CB-9D30-85C691A1316F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{970C57C7-545C-4450-B92F-146CCCFF6823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970C57C7-545C-4450-B92F-146CCCFF6823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970C57C7-545C-4450-B92F-146CCCFF6823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970C57C7-545C-4450-B92F-146CCCFF6823}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
