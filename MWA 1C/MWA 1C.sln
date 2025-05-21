@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L162 - Recursion", "L162 - 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L174 - Binary Trees", "L174 - Binary Trees\L174 - Binary Trees.csproj", "{5B77340A-19BF-4131-897B-CE110C716B40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L176 - Dictionaries", "L176 - Dictionaries\L176 - Dictionaries.csproj", "{D25C6CA2-F029-4B19-A10A-BE028890B4F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{5B77340A-19BF-4131-897B-CE110C716B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B77340A-19BF-4131-897B-CE110C716B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B77340A-19BF-4131-897B-CE110C716B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D25C6CA2-F029-4B19-A10A-BE028890B4F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25C6CA2-F029-4B19-A10A-BE028890B4F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25C6CA2-F029-4B19-A10A-BE028890B4F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25C6CA2-F029-4B19-A10A-BE028890B4F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
