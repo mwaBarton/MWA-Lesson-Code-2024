@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L170 - Queues", "L170 - Que
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L174 - Trees", "L174 - Trees\L174 - Trees.csproj", "{3CFDF4C0-99FD-482A-A778-614DE74B377B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsBitmapGraphics", "FormsBitmapGraphics\FormsBitmapGraphics.csproj", "{14512433-D826-4457-BB9B-B4E438648D3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{3CFDF4C0-99FD-482A-A778-614DE74B377B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CFDF4C0-99FD-482A-A778-614DE74B377B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CFDF4C0-99FD-482A-A778-614DE74B377B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14512433-D826-4457-BB9B-B4E438648D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14512433-D826-4457-BB9B-B4E438648D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14512433-D826-4457-BB9B-B4E438648D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14512433-D826-4457-BB9B-B4E438648D3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
